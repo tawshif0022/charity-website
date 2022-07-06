@@ -8,6 +8,10 @@
 .cover-image{
 
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
 
 }
 .welcome-text{
@@ -96,7 +100,7 @@ ul .sec-2 {
     border:3px solid tomato;
     
 }
-input{
+.others-amount{
     position: absolute;
     top:170%;
     left: 35%;
@@ -164,6 +168,8 @@ i{
 }
 .plan-description{
     color: #707070;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 .plan-2{
     background-color:rgba(255, 89, 89, 0.1);
@@ -172,4 +178,105 @@ i{
 .plan-3{
     background-color: rgb(243, 222, 183);
     border-radius: 10px;
+}
+.charity-branch{
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 80px;
+    
+
+}
+
+.width-arrange{
+    width: 40%;
+    height: 40%;
+    margin-right: 130px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.implement-donation{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 80px;
+
+}
+
+.implement-title{
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.implement-description{
+    text-align: justify;
+    font-size: 20px;
+}
+.btn-3{
+    height: 25px;
+    width: 250px;
+    background-color: rgb(220, 154, 31);
+    font-size: 22px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.btn-3 a{
+    text-decoration: none;
+    color: white;
+}
+.reach-us{
+    position: absolute;
+    margin-top: 35%;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.get-touch{
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.get-touch-description{
+    font-size: 20px;
+    color: gray;
+}
+.subscription{
+    height: 200px;
+    width: 970px;
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 18%;
+    position: absolute;
+    background-color: rgb(252, 211, 182);
+    border-radius: 10px;
+
+}
+.sizing{
+    margin-top: 90px;
+    position: absolute;
+    left: 28%;
+}
+
+.email-input{
+    width: 300px;
+    left: 200px;
+    padding: 13px;
+    border: none;
+    background-color: #fdf1f1;
+    border-radius: 5px;
+}
+.subscribe-btn{
+    position: absolute;
+    left: 300px;
+    padding: 13px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+
 }
