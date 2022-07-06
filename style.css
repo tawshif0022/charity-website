@@ -130,3 +130,46 @@ input{
     font-size: 18px;
     padding: 10px;
 }
+.plan-overview{
+    display: flex;
+    margin-top: 900px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 80%;
+    padding-left: 100px;
+    
+    
+}
+.plan{
+    padding: 25px;
+    text-align: justify;
+    margin: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.plan-head{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.plan-1{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+}
+.plan-description{
+    color: #707070;
+}
+.plan-2{
+    background-color:rgba(255, 89, 89, 0.1);
+    border-radius: 10px;
+}
+.plan-3{
+    background-color: rgb(243, 222, 183);
+    border-radius: 10px;
+}
