@@ -102,6 +102,7 @@ ul .sec-2 {
 }
 .others-amount{
     position: absolute;
+    text-align: center;
     top:170%;
     left: 35%;
     width: 30%;
@@ -146,7 +147,6 @@ ul .sec-2 {
 }
 .plan{
     padding: 25px;
-    text-align: justify;
     margin: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
